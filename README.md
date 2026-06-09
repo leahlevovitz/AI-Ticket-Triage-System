@@ -61,7 +61,7 @@ http://localhost:8080
 | Regex | Urgency detection with typo tolerance |
 | Boolean Logic | Human escalation decisions |
 
-## Installation & Running
+
 
 ### Step 1: Install Ollama (once)
 Download from: https://ollama.com/download
