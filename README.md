@@ -63,34 +63,6 @@ http://localhost:8080
 
 
 
-### Step 1: Install Ollama (once)
-Download from: https://ollama.com/download
-
-### Step 2: Download model (once, ~2.5GB)
-```bash
-ollama pull gemma3:4b
-```
-
-### Step 3: Install Python dependencies (once)
-```bash
-python -m pip install requests flask
-```
-
-### Step 4: Run the system
-```bash
-# Windows PowerShell:
-$env:NO_PROXY="localhost,127.0.0.1"
-python app.py
-
-# Windows CMD:
-set NO_PROXY=localhost,127.0.0.1 && python app.py
-```
-
-### Step 5: Open browser
-```
-http://localhost:8080
-```
-
 ## File Structure
 ```
 ├── prompts.py          ← AI System Prompt (English, optimized for LLM)
