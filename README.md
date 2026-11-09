@@ -2,11 +2,6 @@
 
 > Smart routing for customer-support tickets: **an LLM where language understanding is needed, deterministic rules where predictability matters.**
 
-![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-Web_UI-000000?logo=flask&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-Gemma_3_4B-111111)
-![LLM](https://img.shields.io/badge/AI-Local_LLM-2DD4BF)
-
 Every incoming ticket is turned into a structured, routable record:
 
 | Field | How it's produced | Why |
@@ -63,4 +58,4 @@ Then open **http://localhost:8080**.
 Good AI engineering isn't "use the model for everything". It's choosing **where** a model adds value and where a simple rule is faster, cheaper and safer.
 
 ---
-👩‍💻 Built by **Leah Levovitz** · [LinkedIn](https://www.linkedin.com/in/leahlevovitz) · [GitHub](https://github.com/leahlevovitz)
+👩‍💻 Built by **Leah Levovitz** · [GitHub](https://github.com/leahlevovitz)
